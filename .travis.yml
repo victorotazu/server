@@ -225,7 +225,7 @@ script:
          --suite=${MYSQL_TEST_SUITES}
          --skip-test-list=unstable-tests
          --skip-test=binlog.binlog_unsafe
-
+#
 after_script:
   - ccache --show-stats
   - df -h
